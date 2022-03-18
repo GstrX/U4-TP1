@@ -19,7 +19,6 @@ if (num1 == num2) {
 	alert("Los numeros son iguales");
 };
 
-
 // >>>>> 4 - 2 -----------------------------------------
 var numero = 5 //ingrese el numero
 var comprobacion = numero%2
@@ -110,7 +109,6 @@ else if (codigoVendedor > 200) {
 };
 console.log("El total de ventas fue de $" + totalVentas + ". El codigo del vendedor es: " + codigoVendedor + " y su comision es de $" + comision);
 
-
 // >>>>> 4-8 --------------------------------------------
 var d = 1
 
@@ -136,7 +134,6 @@ else if (d == 7) {
 	console.log("Domingo")
 };
 
-
 // >>>>> 4-9 --------------------------------------------
 var grupo = 5
 
@@ -150,7 +147,7 @@ var totalEntradas = grupo * entrada
 console.log("El grupo esta compuesto por " + grupo + " y el valor total de las entradas es de $" + totalEntradas);
 
 // >>>>> 4-10 -------------------------------------------
-var subTotalFarmacia = 101
+var subTotalFarmacia = Number(101)
 
 if (subTotalFarmacia <= 100) {
 	var totalFarmacia = subTotalFarmacia
